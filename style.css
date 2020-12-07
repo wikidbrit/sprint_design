@@ -316,7 +316,7 @@ button {
     grid-area: 4 / 2 / 5 / 8 ;
     align-self: flex-start;
     text-align: center;
-    transform: translateY(300px);
+    transform: translateY(330px);
 }
 
 .logob {
@@ -326,7 +326,7 @@ button {
     align-self: flex-start;
     justify-content: center;
     display: flex;
-    transform: translateY(470px);
+    transform: translateY(480px);
 }
 
 .logob img {
@@ -339,10 +339,73 @@ button {
     color: var(--blue);
     font-weight: 700;
     line-height: 1.2;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .row3header p {
     font-size: 14pt;
     line-height: 1.9;
+}
+
+.questions {
+    grid-area: 4 / 2 / 5 / 8 ;
+    align-self: center;
+    justify-self: center;
+    transform: translateY(200px);
+    font-size: 20pt;
+    line-height: 1.9;
+    color: var(--blue);
+}
+
+.talk {
+    grid-area: 4 / 2 / 5 / 8 ;
+    align-self: center;
+    justify-self: center;
+    transform: translateY(300px);
+    font-size: 48pt;
+    color: var(--blue);
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.lasttext {
+    grid-area: 4 / 4 / 5 / 6 ;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+    transform: translateY(430px);
+    font-size: 14pt;
+    line-height: 1.9;
+}
+
+.talking {
+    grid-area: 4 / 2 / 5 / 8 ;
+    align-self: flex-end;
+    transform: translateY(-30px);
+    justify-self: center;
+    font-size: 20pt;
+    line-height: 1.9;
+    padding: 10px;
+    background-color: var(--blue);
+    height: 80px;
+    font-weight: 800;
+    color: #ffffff;
+    width: 200px;
+    margin: 0;
+}
+
+.footerlogo {
+    grid-area: 5 / 2 / 6 / 3 ;
+    height: auto;
+    width: 86px;
+    align-self: center;
+}
+
+.footlist {
+    grid-area: 5 / 6 / 6 / 8 ;
+    font-size: 10pt;
+    text-align: right;
+    line-height: 1.2;
+    font-weight: 700;
 }

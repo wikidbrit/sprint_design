@@ -1,19 +1,15 @@
-var textWrapper = document.querySelector('.flavorText');
-textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+ScrollReveal ().reveal('.showimage, .otherbattery, .ubattery, .talk' , {
+    easing: 'ease',
+    origin: 'bottom',
+    distance: '200px',
+    delay: 500,
+    duration: 700,
+    });
 
-anime.timeline({loop: true})
-  .add({
-    targets: '.flavorText .letter',
-    scale: [4,1],
-    opacity: [0,1],
-    translateZ: 0,
-    easing: "easeOutExpo",
-    duration: 950,
-    delay: (el, i) => 70*i
-  }).add({
-    targets: '.flavorText',
-    opacity: 0,
+ScrollReveal ().reveal('.showimagebackground, .rowtwohone, .otherbatterybackground, .producttext, .logob, .batterybackground' , {
+    easing: 'ease',
+    origin: 'bottom',
+    distance: '100px',
+    delay: 200,
     duration: 1000,
-    easing: "easeOutExpo",
-    delay: 1000
-  });
+    });
