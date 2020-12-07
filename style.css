@@ -122,15 +122,33 @@ table {
 }
 
 .flavorText {
-    font-size: 40pt;
+    font-size: 36pt;
     color: var(--blue);
     font-weight: 700;
     line-height: 1.2;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .subText {
-    font-size: 14pt;
+    margin-top: 30px;
+    font-size: 12pt;
     width: 75%;
     line-height: 1.2;
+}
+
+.ubattery {
+    grid-area: 2 / 1 / 3 / 9 ;
+    height: auto;
+    width: 100%;
+    align-self: center;
+    overflow-x: hidden;
+    transform: translateX(20%);
+    z-index: 2;
+}
+
+.line {
+    height: 2px;
+    width: 100%;
+    z-index: 1;
+    background-color: var(--blue);
 }
