@@ -311,3 +311,38 @@ button {
     align-self: center;
     text-align: center;
 }
+
+.row3header {
+    grid-area: 4 / 2 / 5 / 8 ;
+    align-self: flex-start;
+    text-align: center;
+    transform: translateY(300px);
+}
+
+.logob {
+    grid-area: 4 / 2 / 5 / 8 ;
+    width: 100%;
+    height: auto;
+    align-self: flex-start;
+    justify-content: center;
+    display: flex;
+    transform: translateY(470px);
+}
+
+.logob img {
+    width: 120px;
+    margin-right: 10px;
+}
+
+.partners {
+    font-size: 48pt;
+    color: var(--blue);
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 30px;
+}
+
+.row3header p {
+    font-size: 14pt;
+    line-height: 1.9;
+}
