@@ -83,6 +83,19 @@ a {
     font-family: 'Quicksand', sans-serif;
     font-weight: 400;
     letter-spacing: 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px;
+    transition: all 400ms ease;
+    border: 1px solid #ffffff;
+}
+
+.about:hover {
+    background: #ffffff;
+    color: #0157D8;
+    border: 1px solid #0157D8;
 }
 
 .pricing {
@@ -92,6 +105,19 @@ a {
     font-family: 'Quicksand', sans-serif;
     font-weight: 400;
     letter-spacing: 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px;
+    transition: all 400ms ease;
+    border: 1px solid #ffffff;
+}
+
+.pricing:hover {
+    background: #ffffff;
+    color: #0157D8;
+    border: 1px solid #0157D8;
 }
 
 .whyus {
@@ -101,6 +127,19 @@ a {
     font-family: 'Quicksand', sans-serif;
     font-weight: 400;
     letter-spacing: 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px;
+    transition: all 400ms ease;
+    border: 1px solid #ffffff;
+}
+
+.whyus:hover {
+    background: #ffffff;
+    color: #0157D8;
+    border: 1px solid #0157D8;
 }
 
 .contact {
@@ -112,6 +151,19 @@ a {
     z-index: 2;
     color: #ffffff;
     letter-spacing: 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px;
+    transition: all 400ms ease;
+    border: 1px solid #0157D8;
+}
+
+.contact:hover {
+    background: #ffffff;
+    color: #0157D8;
+    border: 1px solid #0157D8;
 }
 
 
@@ -160,6 +212,7 @@ a {
     -webkit-filter: drop-shadow(0px 30px 30px rgba(0, 0, 0, 0.3));
 }
 
+
 .batterybackground {
     background-color: var(--lightblue);
     grid-area: 2 / 5 / 3 / 8 ;
@@ -183,6 +236,7 @@ button {
     background-color: #ffffff;
     border: none;
     font-family: 'Quicksand', sans-serif;
+    transition: all 400ms ease;
 }
 
 .start {
@@ -192,9 +246,21 @@ button {
     font-weight: 700;
 }
 
+.start:hover {
+    background: #ffffff;
+    color: #0157D8;
+    border: 1px solid #0157D8;
+}
+
 .contactus {
     border: 1px solid #000000;
     font-weight: 600;
+}
+
+.contactus:hover {
+    background: #ffffff;
+    color: #0157D8;
+    border: 1px solid #0157D8;
 }
 
 .downarrow1 {
@@ -393,6 +459,14 @@ button {
     color: #ffffff;
     width: 200px;
     margin: 0;
+    border-radius: 50px;
+    border: 1px solid #0157D8;
+}
+
+.talking:hover {
+    background-color: #ffffff;
+    color: #0157D8;
+    border: 1px solid #0157D8;
 }
 
 .footerlogo {
